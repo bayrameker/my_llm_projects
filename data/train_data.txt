@@ -1,9 +1,41 @@
-Bu, bir eğitim veri örneğidir.
-Başka bir eğitim veri örneği.
-Bu da başka bir örnek.
-Daha fazla veri ekledikçe model daha iyi öğrenir.
-Modelin öğrenmesi için yeterli veri sağlamak önemlidir.
-Öğrendiğimiz bilgileri pekiştirmek için tekrarlamak iyidir.
-Yapay zeka modelleri büyük miktarda veriye ihtiyaç duyar.
-Dil modelleri, insan dilini taklit etmeyi amaçlar.
-Eğitim verisi ne kadar çeşitli olursa, model o kadar iyi performans gösterir.
+# Python kodu örnekleri
+def topla(a, b):
+    return a + b
+
+def faktoriyel(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktoriyel(n-1)
+
+# JavaScript kodu örnekleri
+function topla(a, b) {
+    return a + b;
+}
+
+function faktoriyel(n) {
+    if (n === 0) {
+        return 1;
+    } else {
+        return n * faktoriyel(n - 1);
+    }
+}
+
+# HTML ve CSS örnekleri
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Örnek Sayfa</title>
+</head>
+<body>
+    <h1>Merhaba Dünya!</h1>
+    <p>Bu bir paragraf.</p>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+# Daha fazla eğitim verisi eklemek, modelin daha iyi öğrenmesini sağlar.
