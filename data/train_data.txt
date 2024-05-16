@@ -1,0 +1,9 @@
+Bu, bir eğitim veri örneğidir.
+Başka bir eğitim veri örneği.
+Bu da başka bir örnek.
+Daha fazla veri ekledikçe model daha iyi öğrenir.
+Modelin öğrenmesi için yeterli veri sağlamak önemlidir.
+Öğrendiğimiz bilgileri pekiştirmek için tekrarlamak iyidir.
+Yapay zeka modelleri büyük miktarda veriye ihtiyaç duyar.
+Dil modelleri, insan dilini taklit etmeyi amaçlar.
+Eğitim verisi ne kadar çeşitli olursa, model o kadar iyi performans gösterir.

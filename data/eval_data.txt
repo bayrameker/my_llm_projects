@@ -1,0 +1,6 @@
+Bu, bir değerlendirme veri örneğidir.
+Başka bir değerlendirme veri örneği.
+Bu da başka bir örnek.
+Modelin performansını değerlendirmek için çeşitli örnekler kullanmalıyız.
+Yapay zeka modelleri, veriyi anlamlandırma yeteneğiyle değerlendirilir.
+Modelin doğruluğunu ve tutarlılığını test etmek önemlidir.
