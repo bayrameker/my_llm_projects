@@ -33,7 +33,7 @@ def main():
     # Eğitim argümanlarını ayarlayın
     training_args = TrainingArguments(
         output_dir='./models/code_model',
-        num_train_epochs=5,  # Eğitim süresini artırdık
+        num_train_epochs=10,  # Eğitim süresini artırdık
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
         warmup_steps=500,
