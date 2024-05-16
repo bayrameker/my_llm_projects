@@ -2,3 +2,5 @@ transformers
 datasets
 torch
 accelerate
+flask
+flask-cors
