@@ -9,7 +9,7 @@ def main():
     nlp = pipeline('text-generation', model=model, tokenizer=tokenizer)
 
     # Test metni üzerinde modeli değerlendirin
-    test_text = "Bu bir deneme metnidir. "
+    test_text = "Python dilinde bir kod yazın: "
     result = nlp(test_text, max_length=50, num_return_sequences=1, truncation=True)
     print(result)
 
