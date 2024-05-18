@@ -4,7 +4,7 @@ Bu proje, GPT-2 tabanlı bir dil modelini eğitmek ve değerlendirmek için olu�
 
 ## Gereksinimler
 
-- Python 3.7+
+- Python 3+
 - transformers
 - datasets
 - torch
