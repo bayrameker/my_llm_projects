@@ -5,6 +5,8 @@ def main():
     # Veriyi yükleyin ve ön işleyin
     dataset = load_dataset('text', data_files={'train': 'data/train_data.txt', 'validation': 'data/eval_data.txt'})
 
+    #dataset = load_dataset('text', data_files={'train': 'data_utils.py/train_data.txt', 'validation': 'data_utils.py/eval_data.txt'})
+
     # Veriyi kontrol et
     print("Dataset loaded successfully:")
     print(dataset)
@@ -30,7 +32,11 @@ def main():
     print("Tokenized dataset:")
     print(tokenized_datasets)
 
-    # Eğitim argümanlarını ayarlayın
+    #training yeterli değil daha fazla eğitim seçeneği eklenmeli.
+    #TODO: github değil farklı web üzerinden data scrap yapılacak
+    #Eğitim argümanlarını ayarlayın
+    #3 ve 4. varyantlarda aynı cevapları veriyor eğitim sürecinde varyantlar dinamik olmalı.
+    # llama3 eğtim konusunda en iyis hatta gtp4-0 eğitimine göre daha iyi
     training_args = TrainingArguments(
         output_dir='./models/code_model',
         num_train_epochs=10,  # Eğitim süresini artırdık
