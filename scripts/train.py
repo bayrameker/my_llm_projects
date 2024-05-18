@@ -3,7 +3,7 @@ from datasets import load_dataset
 
 def main():
     # Veriyi yükleyin ve ön işleyin
-    dataset = load_dataset('text', data_files={'train': 'data/train_data.txt', 'validation': 'data/eval_data.txt'})
+    dataset = load_dataset('text', data_files={'train': 'data_utils.py/train_data.txt', 'validation': 'data_utils.py/eval_data.txt'})
 
     # Veriyi kontrol et
     print("Dataset loaded successfully:")
